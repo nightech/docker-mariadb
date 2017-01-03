@@ -1,0 +1,7 @@
+[mysqld]
+innodb_file_format = barracuda
+innodb_file_per_table = 1
+
+innodb_buffer_pool_size = %INNODB_BUFFER_POOL_SIZE%
+innodb_log_buffer_size = %INNODB_LOG_BUFFER_SIZE%
+innodb_flush_log_at_trx_commit = %INNODB_FLUSH_LOG_AT_TRX_COMMIT%
