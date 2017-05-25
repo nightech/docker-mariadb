@@ -1,4 +1,4 @@
-FROM mariadb:10.1
+FROM mariadb:10.2
 
 COPY ./overlay/ /
 

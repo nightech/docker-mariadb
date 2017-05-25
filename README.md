@@ -1,6 +1,6 @@
 # Docker MariaDb
 
-Dockerfile for Mariadb 10.1
+Dockerfile for Mariadb 10.2
 
 ## Environment Variables
 * `MAX_ALLOWED_PACKET` : "4m"
